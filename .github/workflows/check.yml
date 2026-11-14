@@ -1,0 +1,20 @@
+name: Check data
+on:
+  pull_request:
+    paths: ['data/**', 'img/**', 'scripts/**']
+  push:
+    branches: [master]
+    paths: ['data/**', 'img/**', 'scripts/**']
+  schedule:
+    - cron: '0 6 * * 1' # weekly link check
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/check.mjs
+      - if: github.event_name == 'schedule'
+        run: node scripts/check.mjs --links

@@ -1,84 +1,72 @@
-<p align="center">
-  <a href="https://praveenpal4232.github.io/Google-Gifts/">
-    <img src='img/Google-Gifts-Banner.webp' alt="Google-Gifts"/>
-  </a>
-</p>
+# Contributing to Google Gifts
 
-## Contributing
+Thanks for helping! The most useful contribution is a **new tool**, or a **fix to an existing one**
+(dead link, rename, outdated pricing).
 
-I'd love your help improving this repo. If interested in contributing a pull request, please:
+## Add a tool
 
-1. Make sure your PR has a valid title and description. 
-2. Your PR updates only touch the parts of the repo it needs to. In most cases this will be `contributing.md`.
+1. Edit [`data/tools.json`](data/tools.json) and add an object to the `tools` array.
+2. Optionally add an image to `img/` (500×300 `.webp`, logo centred on white). Without one, the
+   site shows a coloured tile with the tool's initials.
+3. Run the validator:
+   ```bash
+   node scripts/check.mjs          # schema checks
+   node scripts/check.mjs --links  # also checks every URL responds
+   ```
+4. Open a pull request with a short description and a link to the official page you used as the source.
 
-If updating an opinion or recommendation in the repo, please help us by providing data to back the change. This helps equip us with tools to make the best call on such updates.
+### Minimal entry
 
-## Table of contents
+```json
+{
+  "id": "quick-draw",
+  "name": "Quick, Draw!",
+  "tagline": "A drawing game where a neural network guesses your doodles.",
+  "url": "https://quickdraw.withgoogle.com/",
+  "category": "culture",
+  "type": "experiment",
+  "pricing": "free",
+  "status": "active",
+  "added": "2026-11-14",
+  "verified": "2026-11-14"
+}
+```
 
-- [Google Developers](https://developers.google.com/)
-- [Think with Google](https://www.thinkwithgoogle.com/)
-- [Google Design](https://design.google/)
-- [Google AI](https://ai.google/)
-- [Google Cloud Platform](https://cloud.google.com/)
-- [Google open source](https://opensource.google.com/)
-- [Google Apps Script](https://www.google.com/script/start/)
-- [Google DeepMind](https://deepmind.com/)
-- [Made with Code](https://www.madewithcode.com/)
-- [Google Tech Dev Guide](https://techdevguide.withgoogle.com/)
-- [Google for Education](https://edu.google.com/)
-- [Google Developers Training](https://developers.google.com/training/)
-- [Google for Startups](https://startup.google.com/)
-- [Talks at Google](https://talksat.withgoogle.com/)
-- [Google Developers Blog](https://developers.googleblog.com/)
-- [Google Protocol Buffers](https://developers.google.com/protocol-buffers/)
-- [Google Codelabs](https://codelabs.developers.google.com/)
-- [Grow With Google](https://grow.google/)
-- [Google My Business](https://www.google.com/business/)
-- [Google Earth](https://www.google.com/earth/)
-- [Google Scholar](https://scholar.google.co.in/)
-- [Google Digital Garage](https://learndigital.withgoogle.com/)
-- [Google Summer of Code](https://summerofcode.withgoogle.com/)
-- [Google Trends](https://trends.google.com/trends/)
-- [Google User Experience Research](https://userresearch.google.com/)
-- [Experiments with Google](https://experiments.withgoogle.com/)
-- [Google API](https://developers.google.com/apis-explorer/)
-- [Web.dev](https://web.dev/)
-- [Google Arts and Culture](https://artsandculture.google.com/)
-- [Google Careers](https://careers.google.com/)
-- [Google Sites](https://sites.google.com/)
-- [Google Product Experts](https://productexperts.withgoogle.com/)
-- [Google Alerts](https://www.google.co.in/alerts/)
-- [Google Marketing Platform](https://marketingplatform.google.com/)
-- [Google Data Studio](https://datastudio.google.com/)
-- [Google Web Platform](https://webplatform.github.io/)
-- [Google Code-in](https://codein.withgoogle.com/)
-- [Google Accessibility](https://www.google.com/accessibility/)
-- [Google Analytics](https://analytics.google.com/analytics/web/)
-- [Google AR / VR](https://arvr.google.com/)
-- [Google Stadia](https://stadia.dev/)
-- [Google Waze](https://developers.google.com/waze/)
-- [Season of Docs](https://developers.google.com/season-of-docs/)
-- [Build your future](https://buildyourfuture.withgoogle.com/)
-- [Google's Coding Competitions](https://codingcompetitions.withgoogle.com/)
-- [Google for Nonprofits](https://www.google.com/nonprofits/)
-- [Google Research](https://research.google/)
-- [Google Sustainability](https://sustainability.google/)
-- [AMP](https://amp.dev/)
-- [Firebase](https://firebase.google.com/)
-- [Flutter](https://flutter.dev/)
-- [Google Doodles](https://www.google.com/doodles)
-- [Google Translate](https://translate.google.com/)
-- [Google Trips](https://www.google.com/travel/)
-- [Google News](https://news.google.com/)
-- [Google Calendar](https://www.google.com/calendar/)
-- [Google Chat](https://mail.google.com/chat/)
-- [Google Meet](https://meet.google.com/)
-- [Google Docs Editors](https://www.google.com/docs/about/)
-- [Google Drive](https://drive.google.com/)
-- [Google Keep](https://www.google.com/keep/)
-- [Next Yours](#)
+### All fields
 
-## License
+| Field | Required | Notes |
+|---|---|---|
+| `id` | yes | Unique, kebab-case. Used in links: `?tool=<id>` |
+| `name` | yes | |
+| `tagline` | yes | One sentence, ≤ 120 characters, shown on cards |
+| `url` | yes | Official `https://` URL |
+| `category` | yes | One of the `categories[].id` values at the top of the file |
+| `type` | yes | `app`, `platform`, `program`, `resource`, `experiment` |
+| `pricing` | yes | `free`, `freemium`, `paid`, `unknown`. **Use `unknown` rather than guessing** |
+| `status` | yes | `active`, `beta`, `discontinued`, `unavailable` (temporarily down / region-limited) |
+| `description` | | Longer overview for the detail view |
+| `image` | | Path under `img/` |
+| `tags` | | Search keywords, lowercase |
+| `collections` | | Any of `hidden-gems`, `ai-powered`, `experiments` |
+| `features`, `useCases` | | Arrays of short strings |
+| `pricingNote` | | e.g. "Free tier; Pro plan is paid." |
+| `platforms` | | Any of `web`, `android`, `ios`, `desktop` |
+| `openSource` | | `true` / `false`. Leave out if unsure |
+| `formerly` | | Previous name, e.g. `"Google Data Studio"` (also searchable) |
+| `statusNote` | | Why it is discontinued, renamed, redirected… |
+| `featured` | | `true` to show in the Featured row (maintainers decide) |
+| `added`, `verified` | | `YYYY-MM-DD`. Update `verified` when you re-check a tool |
+| `related` | | Array of other tool `id`s. Similar tools are also suggested automatically |
+| `resources` | | `[{ "label": "Docs", "url": "https://…" }]` |
 
-Except as otherwise noted, the content of this repo is licensed under the  Creative Commons [Creative Commons Attribution 4.0 International License.
-](http://creativecommons.org/licenses/by/4.0/) license.
+## Data quality rules
+
+- Only state facts you can confirm on an official Google page. No invented prices, features or dates.
+- Discontinued tools stay in the list with `"status": "discontinued"` and a `statusNote`. Don't delete them.
+- Renamed products: update `name` and `url`, put the old name in `formerly`.
+- Keep the `id` stable once published, because shared links depend on it.
+
+## Code changes
+
+There is no build step. Serve the folder with `python3 -m http.server` and open it in a browser.
+If you change files listed in `PRECACHE` in `sw.js`, bump `VERSION` there so returning visitors get the update.
