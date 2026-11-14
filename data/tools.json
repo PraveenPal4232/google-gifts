@@ -1,0 +1,2451 @@
+{
+  "version": 1,
+  "updated": "2026-11-14",
+  "categories": [
+    {
+      "id": "ai-research",
+      "name": "AI & Research",
+      "color": "#7C4DFF"
+    },
+    {
+      "id": "developer",
+      "name": "Developer Tools",
+      "color": "#4285F4"
+    },
+    {
+      "id": "productivity",
+      "name": "Productivity",
+      "color": "#0F9D58"
+    },
+    {
+      "id": "creative",
+      "name": "Design & Creativity",
+      "color": "#E91E63"
+    },
+    {
+      "id": "culture",
+      "name": "Arts, Culture & Fun",
+      "color": "#F4B400"
+    },
+    {
+      "id": "data-search",
+      "name": "Search, Data & Insights",
+      "color": "#00ACC1"
+    },
+    {
+      "id": "learning",
+      "name": "Learning & Careers",
+      "color": "#FF7043"
+    },
+    {
+      "id": "programs",
+      "name": "Programs & Community",
+      "color": "#DB4437"
+    },
+    {
+      "id": "business",
+      "name": "Business & Marketing",
+      "color": "#5C6BC0"
+    },
+    {
+      "id": "maps-travel",
+      "name": "Maps & Travel",
+      "color": "#43A047"
+    }
+  ],
+  "collections": [
+    {
+      "id": "hidden-gems",
+      "name": "Hidden gems"
+    },
+    {
+      "id": "ai-powered",
+      "name": "AI-powered"
+    },
+    {
+      "id": "experiments",
+      "name": "Experiments"
+    }
+  ],
+  "tools": [
+    {
+      "id": "google-developers",
+      "name": "Google Developers",
+      "tagline": "Docs, APIs, SDKs and guides for building on Google's platforms.",
+      "description": "Google Developers is Google's site for software development tools, application programming interfaces, and technical resources.",
+      "image": "img/Google-Developers.webp",
+      "url": "https://developers.google.com/",
+      "category": "developer",
+      "type": "resource",
+      "tags": [
+        "docs",
+        "apis",
+        "sdk"
+      ],
+      "related": [
+        "google-codelabs",
+        "google-apis-explorer",
+        "google-developers-blog"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "think-with-google",
+      "name": "Think with Google",
+      "tagline": "Marketing research, consumer insights and digital trend reports.",
+      "description": "Uncover the latest marketing research and digital trends with data reports, guides, infographics, and articles from Think with Google.",
+      "image": "img/Think-with-Google.webp",
+      "url": "https://www.thinkwithgoogle.com/",
+      "category": "business",
+      "type": "resource",
+      "tags": [
+        "marketing",
+        "research",
+        "insights"
+      ],
+      "statusNote": "Now redirects to the Google Business site.",
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-design",
+      "name": "Google Design",
+      "tagline": "Articles, case studies and resources from Google's design teams.",
+      "description": "Google Design is a cooperative effort led by a group of designers, writers, and developers at Google.",
+      "image": "img/Google-Design.webp",
+      "url": "https://design.google/",
+      "category": "creative",
+      "type": "resource",
+      "tags": [
+        "design",
+        "ux",
+        "articles"
+      ],
+      "related": [
+        "material-design",
+        "google-fonts"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI",
+      "tagline": "Overview of Google's AI products, research and responsible-AI principles.",
+      "description": "At Google, they think that AI can meaningfully improve people’s lives and that the biggest impact will come when everyone can access it. Learn more about their projects and tools.",
+      "image": "img/Google-AI.webp",
+      "url": "https://ai.google/",
+      "category": "ai-research",
+      "type": "resource",
+      "tags": [
+        "ai",
+        "machine learning"
+      ],
+      "collections": [
+        "ai-powered"
+      ],
+      "related": [
+        "google-deepmind",
+        "google-research",
+        "google-ai-studio"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-cloud",
+      "name": "Google Cloud",
+      "tagline": "Cloud computing, data and AI infrastructure running on Google’s network.",
+      "description": "Google Cloud Platform, offered by Google, is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products.",
+      "image": "img/Google-Cloud-Platform.webp",
+      "url": "https://cloud.google.com/",
+      "category": "developer",
+      "type": "platform",
+      "formerly": "Google Cloud Platform",
+      "tags": [
+        "cloud",
+        "infrastructure",
+        "hosting",
+        "gcp"
+      ],
+      "pricing": "freemium",
+      "pricingNote": "Pay-as-you-go with a free tier and trial credits for new accounts.",
+      "related": [
+        "firebase"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-open-source",
+      "name": "Google Open Source",
+      "tagline": "Google's open source projects, programs and contribution guidelines.",
+      "description": "Google believes that by being open and freely available, it enables and encourages collaboration and the development of technology, solving real world problems.",
+      "image": "img/Google-open-source.webp",
+      "url": "https://opensource.google/",
+      "category": "developer",
+      "type": "resource",
+      "tags": [
+        "open source",
+        "github"
+      ],
+      "related": [
+        "google-summer-of-code",
+        "season-of-docs"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-apps-script",
+      "name": "Google Apps Script",
+      "tagline": "Automate Gmail, Sheets, Docs and Drive with JavaScript in the cloud.",
+      "description": "Apps Script is a scripting framework for light-weight application development in the G Suite platform.",
+      "image": "img/Google-Apps-Script.webp",
+      "url": "https://developers.google.com/apps-script",
+      "category": "productivity",
+      "type": "platform",
+      "tags": [
+        "automation",
+        "javascript",
+        "workspace",
+        "scripting"
+      ],
+      "collections": [
+        "hidden-gems"
+      ],
+      "useCases": [
+        "Automate repetitive spreadsheet work",
+        "Send scheduled emails from Sheets",
+        "Build small internal tools on Google Workspace"
+      ],
+      "related": [
+        "google-docs-editors",
+        "google-drive"
+      ],
+      "pricing": "free",
+      "pricingNote": "Free with a Google account; quotas apply.",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-deepmind",
+      "name": "Google DeepMind",
+      "tagline": "The AI research lab behind AlphaGo, AlphaFold and Gemini.",
+      "description": "DeepMind is the world leader in artificial intelligence research and its application for positive impact.",
+      "image": "img/Google-DeepMind.webp",
+      "url": "https://deepmind.google/",
+      "category": "ai-research",
+      "type": "resource",
+      "tags": [
+        "ai",
+        "research",
+        "alphafold"
+      ],
+      "collections": [
+        "ai-powered"
+      ],
+      "related": [
+        "google-research",
+        "google-ai",
+        "gemini"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "made-with-code",
+      "name": "Made with Code",
+      "tagline": "An initiative that encouraged girls to try coding through creative projects.",
+      "description": "Things you code your first creative project and meet music producers, fashion designers, humanitarians, and animators who are coding the world they want to see.",
+      "image": "img/Made-with-Code.webp",
+      "url": "https://www.madewithcode.com/",
+      "category": "learning",
+      "type": "program",
+      "tags": [
+        "coding",
+        "kids",
+        "education"
+      ],
+      "status": "discontinued",
+      "statusNote": "The site now redirects to Grow with Google.",
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-tech-dev-guide",
+      "name": "Google Tech Dev Guide",
+      "tagline": "Curated computer science learning paths from Google.",
+      "description": "Whether you’re a student, an educator, or otherwise interested in software engineering, newer to computer science or a more experienced coder.",
+      "image": "img/Google-Tech-Dev-Guide.webp",
+      "url": "https://techdevguide.withgoogle.com/",
+      "category": "learning",
+      "type": "resource",
+      "tags": [
+        "computer science",
+        "interview prep"
+      ],
+      "status": "discontinued",
+      "statusNote": "Now redirects to Build Your Future resources.",
+      "related": [
+        "build-your-future"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-for-education",
+      "name": "Google for Education",
+      "tagline": "Tools, programs and training for schools, teachers and students.",
+      "description": "Schools and universities are using Google's products, programs, and philanthropy to help them improve learning and innovation.",
+      "image": "img/Google-for-Education.webp",
+      "url": "https://edu.google.com/",
+      "category": "learning",
+      "type": "platform",
+      "tags": [
+        "education",
+        "classroom",
+        "teachers"
+      ],
+      "pricing": "freemium",
+      "pricingNote": "Education Fundamentals is free for qualifying institutions; paid editions exist.",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-developers-training",
+      "name": "Google Developers Training",
+      "tagline": "Online coding courses created by Google engineers.",
+      "description": "Google Developers Training is a set of online coding courses created by Google engineers.",
+      "image": "img/Google-Developers-Training.webp",
+      "url": "https://developers.google.com/training/",
+      "category": "learning",
+      "type": "resource",
+      "tags": [
+        "courses",
+        "training"
+      ],
+      "status": "discontinued",
+      "statusNote": "Now redirects to the Google Developers solutions catalog.",
+      "related": [
+        "google-codelabs"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-for-startups",
+      "name": "Google for Startups",
+      "tagline": "Programs, mentorship and resources for early-stage founders.",
+      "description": "Looking to get your new startup off the ground? Google for Startups is here with helpful tools and best practices to point you in the right direction.",
+      "image": "img/Google-for-Startups.webp",
+      "url": "https://startup.google.com/",
+      "category": "programs",
+      "type": "program",
+      "tags": [
+        "startups",
+        "founders",
+        "accelerator"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "talks-at-google",
+      "name": "Talks at Google",
+      "tagline": "A long-running speaker series with authors, scientists and creators.",
+      "description": "Talks at Google. Talks at Google, a regular speaker series, was started in 2006 and is a staple of Google's unique culture.",
+      "image": "img/Talks-at-Google.webp",
+      "url": "https://www.youtube.com/@TalksatGoogle",
+      "category": "learning",
+      "type": "resource",
+      "tags": [
+        "talks",
+        "video",
+        "lectures"
+      ],
+      "collections": [
+        "hidden-gems"
+      ],
+      "statusNote": "The old talksat.withgoogle.com site is gone; talks continue on YouTube.",
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-developers-blog",
+      "name": "Google Developers Blog",
+      "tagline": "News and announcements across Google developer platforms.",
+      "description": "News and insights on Google platforms, tools, and events.",
+      "image": "img/Google-Developers-Blog.webp",
+      "url": "https://developers.googleblog.com/",
+      "category": "developer",
+      "type": "resource",
+      "tags": [
+        "news",
+        "blog"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "protocol-buffers",
+      "name": "Protocol Buffers",
+      "tagline": "Language-neutral mechanism for serializing structured data.",
+      "description": "Protocol buffers are a language-neutral, platform-neutral extensible mechanism for serializing structured data.",
+      "image": "img/Google-Protocol-Buffers.webp",
+      "url": "https://protobuf.dev/",
+      "category": "developer",
+      "type": "platform",
+      "tags": [
+        "serialization",
+        "grpc",
+        "protobuf"
+      ],
+      "platforms": [
+        "desktop"
+      ],
+      "openSource": true,
+      "resources": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/protocolbuffers/protobuf"
+        }
+      ],
+      "pricing": "free",
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-codelabs",
+      "name": "Google Codelabs",
+      "tagline": "Guided, hands-on coding tutorials for Google technologies.",
+      "description": "Google Developers Codelabs provide a guided, tutorial, hands-on coding experience. Most codelabs will step you through the process of building a small application, or adding a new feature to an existing application.",
+      "image": "img/Google-Codelabs.webp",
+      "url": "https://codelabs.developers.google.com/",
+      "category": "developer",
+      "type": "resource",
+      "tags": [
+        "tutorials",
+        "learning",
+        "hands-on"
+      ],
+      "collections": [
+        "hidden-gems"
+      ],
+      "related": [
+        "google-developers"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "grow-with-google",
+      "name": "Grow with Google",
+      "tagline": "Free training, certificates and tools to grow your skills or business.",
+      "description": "Grow with Google offers free training and tools to help you grow your skills, career, or business. Explore programs and register for an in-person workshop.",
+      "image": "img/Grow-With-Google.webp",
+      "url": "https://grow.google/",
+      "category": "learning",
+      "type": "program",
+      "tags": [
+        "career",
+        "certificates",
+        "skills"
+      ],
+      "pricing": "freemium",
+      "pricingNote": "Many resources are free; Google Career Certificates are paid via Coursera.",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-business-profile",
+      "name": "Google Business Profile",
+      "tagline": "Manage how your business appears on Google Search and Maps.",
+      "description": "Your free Business Profile on Google My Business helps you reach and engage with local customers across Google Search and Maps.",
+      "image": "img/Google-My-Business.webp",
+      "url": "https://www.google.com/business/",
+      "category": "business",
+      "type": "app",
+      "formerly": "Google My Business",
+      "tags": [
+        "local business",
+        "maps",
+        "seo"
+      ],
+      "platforms": [
+        "web",
+        "android",
+        "ios"
+      ],
+      "pricing": "free",
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-earth",
+      "name": "Google Earth",
+      "tagline": "Explore a 3D globe built from satellite imagery, with guided stories.",
+      "description": "Google Earth is a computer program that renders a 3D representation of Earth based primarily on satellite imagery.",
+      "image": "img/Google-Earth.webp",
+      "url": "https://earth.google.com/",
+      "category": "maps-travel",
+      "type": "app",
+      "tags": [
+        "maps",
+        "3d",
+        "satellite",
+        "geography"
+      ],
+      "platforms": [
+        "web",
+        "android",
+        "ios",
+        "desktop"
+      ],
+      "featured": true,
+      "related": [
+        "earth-engine",
+        "street-view"
+      ],
+      "pricing": "free",
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-scholar",
+      "name": "Google Scholar",
+      "tagline": "Search scholarly papers, theses, books and court opinions.",
+      "description": "Google Scholar is a freely accessible web search engine that indexes the full text or metadata of scholarly literature across an array of publishing formats and disciplines.",
+      "image": "img/Google-Scholar.webp",
+      "url": "https://scholar.google.com/",
+      "category": "data-search",
+      "type": "app",
+      "tags": [
+        "research",
+        "papers",
+        "citations",
+        "academic"
+      ],
+      "related": [
+        "dataset-search",
+        "google-books"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-digital-garage",
+      "name": "Google Digital Garage",
+      "tagline": "Free online courses in digital marketing and career skills.",
+      "description": "Learn online marketing with free courses training to get the digital skills you need to grow your business, your career. Free courses from Google to become a digital expert.",
+      "image": "img/Google-Digital-Garage.webp",
+      "url": "https://learndigital.withgoogle.com/",
+      "category": "learning",
+      "type": "program",
+      "tags": [
+        "marketing",
+        "courses"
+      ],
+      "status": "discontinued",
+      "statusNote": "Merged into Grow with Google.",
+      "related": [
+        "grow-with-google"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-summer-of-code",
+      "name": "Google Summer of Code",
+      "tagline": "Paid program for new contributors to work on open source projects.",
+      "description": "Google Summer of Code is a global program focused on bringing more student developers into open source software development. Students work with an open source organization on a 3 month programming project.",
+      "image": "img/Google-Summer-of-Code.webp",
+      "url": "https://summerofcode.withgoogle.com/",
+      "category": "programs",
+      "type": "program",
+      "tags": [
+        "open source",
+        "mentorship",
+        "gsoc",
+        "students"
+      ],
+      "featured": true,
+      "related": [
+        "season-of-docs",
+        "google-open-source"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-trends",
+      "name": "Google Trends",
+      "tagline": "See what the world is searching for, over time and by region.",
+      "description": "Google Trends is a website by Google that analyzes the popularity of top search queries in Google Search across various regions and languages.",
+      "image": "img/Google-Trends.webp",
+      "url": "https://trends.google.com/trends/",
+      "category": "data-search",
+      "type": "app",
+      "tags": [
+        "search",
+        "data",
+        "analytics",
+        "trends"
+      ],
+      "featured": true,
+      "related": [
+        "ngram-viewer",
+        "google-alerts"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-ux-research",
+      "name": "Google User Experience Research",
+      "tagline": "Sign up to take part in studies that shape Google products.",
+      "description": "Google User Experience Research is about what you think about Google products and features by participating in our user research studies. You’ll get a token of our appreciation plus the chance to help build something you’ll love.",
+      "image": "img/Google-User-Experience-Research.webp",
+      "url": "https://userresearch.google.com/",
+      "category": "programs",
+      "type": "program",
+      "tags": [
+        "ux",
+        "research",
+        "studies"
+      ],
+      "collections": [
+        "hidden-gems"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "experiments-with-google",
+      "name": "Experiments with Google",
+      "tagline": "A showcase of creative coding experiments using AI, AR, web and more.",
+      "description": "Since 2009, coders have created thousands of amazing experiments using Chrome, Android, AI, WebVR, AR and more. Google showcasing projects here, along with helpful tools and resources, to inspire others to create new experiments.",
+      "image": "img/Experiments-with-Google.webp",
+      "url": "https://experiments.withgoogle.com/",
+      "category": "culture",
+      "type": "resource",
+      "tags": [
+        "experiments",
+        "creative coding",
+        "ai"
+      ],
+      "collections": [
+        "experiments",
+        "hidden-gems"
+      ],
+      "featured": true,
+      "related": [
+        "quick-draw",
+        "teachable-machine",
+        "chrome-music-lab"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-apis-explorer",
+      "name": "Google APIs Explorer",
+      "tagline": "Browse and try Google APIs directly from the browser.",
+      "description": "Google APIs is a set of application programming interfaces (APIs) developed by Google which allow communication with Google Services and their integration to other services. Examples of these include Search, Gmail, Translate or Google Maps.",
+      "image": "img/Google-API.webp",
+      "url": "https://developers.google.com/apis-explorer/",
+      "category": "developer",
+      "type": "app",
+      "tags": [
+        "apis",
+        "rest",
+        "testing"
+      ],
+      "collections": [
+        "hidden-gems"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "web-dev",
+      "name": "web.dev",
+      "tagline": "Guidance for building fast, accessible, modern websites.",
+      "description": "Get the web's modern capabilities on your own sites and apps with useful guidance and analysis from Web.dev. Whether you already have a website or you're just getting started, learn to build for the modern web at Web.dev.",
+      "image": "img/Web.dev.webp",
+      "url": "https://web.dev/",
+      "category": "developer",
+      "type": "resource",
+      "tags": [
+        "web",
+        "performance",
+        "accessibility",
+        "pwa"
+      ],
+      "related": [
+        "pagespeed-insights",
+        "lighthouse",
+        "squoosh"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-arts-and-culture",
+      "name": "Google Arts & Culture",
+      "tagline": "Explore artworks, museums and cultural stories from around the world.",
+      "description": "Google Arts & Culture is an online platform through which the public can access high-resolution images of artworks housed in the initiative's partner museums.",
+      "image": "img/Google-Arts-&-Culture.webp",
+      "url": "https://artsandculture.google.com/",
+      "category": "culture",
+      "type": "app",
+      "tags": [
+        "art",
+        "museums",
+        "history",
+        "culture"
+      ],
+      "platforms": [
+        "web",
+        "android",
+        "ios"
+      ],
+      "featured": true,
+      "related": [
+        "google-doodles",
+        "street-view"
+      ],
+      "pricing": "free",
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-careers",
+      "name": "Google Careers",
+      "tagline": "Search and apply for jobs at Google.",
+      "description": "Careers at Google - find a job at Google. Look inside engineering jobs at Google.",
+      "image": "img/Google-Careers.webp",
+      "url": "https://careers.google.com/",
+      "category": "learning",
+      "type": "resource",
+      "tags": [
+        "jobs",
+        "careers"
+      ],
+      "related": [
+        "build-your-future"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-sites",
+      "name": "Google Sites",
+      "tagline": "Build simple websites with drag-and-drop, no code required.",
+      "description": "Create your free website with Google. With Google you can create a free mobile-optimized website, Google will automatically use the information and photos to create a site .",
+      "image": "img/Google-Sites.webp",
+      "url": "https://sites.google.com/",
+      "category": "productivity",
+      "type": "app",
+      "tags": [
+        "website builder",
+        "no-code",
+        "workspace"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-product-experts",
+      "name": "Google Product Experts",
+      "tagline": "Volunteer program for people who help others in Google Help Communities.",
+      "description": "Enrich Google Help Communities with your passion for Google products and interest in helping others. You'll become eligible for badges and special perks as you progress.",
+      "image": "img/Google-Product-Experts.webp",
+      "url": "https://productexperts.withgoogle.com/",
+      "category": "programs",
+      "type": "program",
+      "tags": [
+        "community",
+        "volunteer",
+        "support"
+      ],
+      "collections": [
+        "hidden-gems"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-alerts",
+      "name": "Google Alerts",
+      "tagline": "Get an email whenever new results appear for a topic.",
+      "description": "Google Alerts is a content change detection and notification service, offered by the search engine company Google.",
+      "image": "img/Google-Alerts.webp",
+      "url": "https://www.google.com/alerts",
+      "category": "data-search",
+      "type": "app",
+      "tags": [
+        "monitoring",
+        "news",
+        "email",
+        "search"
+      ],
+      "collections": [
+        "hidden-gems"
+      ],
+      "useCases": [
+        "Track mentions of your name or brand",
+        "Follow a niche topic without checking daily"
+      ],
+      "related": [
+        "google-trends",
+        "google-news"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-marketing-platform",
+      "name": "Google Marketing Platform",
+      "tagline": "Unified advertising and analytics tools for marketers.",
+      "description": "Google Marketing Platform, a unified marketing and analytics platform for smarter marketing measurement and better results.",
+      "image": "img/Google-Marketing-Platform.webp",
+      "url": "https://marketingplatform.google.com/",
+      "category": "business",
+      "type": "platform",
+      "tags": [
+        "marketing",
+        "ads",
+        "analytics"
+      ],
+      "pricing": "freemium",
+      "pricingNote": "Free tools (e.g. Analytics) plus paid enterprise products.",
+      "related": [
+        "google-analytics"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "looker-studio",
+      "name": "Looker Studio",
+      "tagline": "Turn data into interactive dashboards and shareable reports.",
+      "description": "Unlock the power of your data with interactive dashboards and engaging reports that inspire smarter business decisions. It’s easy and free.",
+      "image": "img/Google-Data-Studio.webp",
+      "url": "https://lookerstudio.google.com/",
+      "category": "business",
+      "type": "app",
+      "formerly": "Google Data Studio",
+      "tags": [
+        "dashboards",
+        "data",
+        "reporting",
+        "bi"
+      ],
+      "pricing": "freemium",
+      "pricingNote": "Free; Looker Studio Pro is a paid upgrade.",
+      "related": [
+        "google-analytics"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "webplatform-org",
+      "name": "WebPlatform.org",
+      "tagline": "Community web documentation project, now archived.",
+      "description": "The latest information on how to use the technology that runs the web — HTML, CSS, JavaScript and more.",
+      "image": "img/WebPlatform.org.webp",
+      "url": "https://webplatform.github.io/",
+      "category": "developer",
+      "type": "resource",
+      "tags": [
+        "docs",
+        "web",
+        "archive"
+      ],
+      "status": "discontinued",
+      "statusNote": "A W3C community project (Google was one of several stewards). Archived in 2015.",
+      "related": [
+        "web-dev"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-code-in",
+      "name": "Google Code-in",
+      "tagline": "Contest introducing pre-university students to open source.",
+      "description": "Google Code-in is a contest to introduce pre-university students (ages 13-17) to open source software development.",
+      "image": "img/Google-Code-in.webp",
+      "url": "https://codein.withgoogle.com/archive/",
+      "category": "programs",
+      "type": "program",
+      "tags": [
+        "open source",
+        "students",
+        "contest"
+      ],
+      "status": "discontinued",
+      "statusNote": "Program ended; only the archive remains.",
+      "related": [
+        "google-summer-of-code"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-accessibility",
+      "name": "Google Accessibility",
+      "tagline": "Google's accessibility features, tools and research.",
+      "description": "Google's support of accessibility extends beyond accessibility tools to include both external and internal research efforts.",
+      "image": "img/Google-Accessibility.webp",
+      "url": "https://accessibility.google/",
+      "category": "learning",
+      "type": "resource",
+      "tags": [
+        "accessibility",
+        "a11y",
+        "inclusion"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-analytics",
+      "name": "Google Analytics",
+      "tagline": "Measure website and app traffic, conversions and audiences.",
+      "description": "Google Analytics lets you measure your advertising ROI as well as track your Flash, video, and social networking sites and applications.",
+      "image": "img/Google-Analytics.webp",
+      "url": "https://analytics.google.com/",
+      "category": "business",
+      "type": "app",
+      "tags": [
+        "analytics",
+        "web",
+        "marketing",
+        "ga4"
+      ],
+      "pricing": "freemium",
+      "pricingNote": "Free; Analytics 360 is paid.",
+      "platforms": [
+        "web",
+        "android",
+        "ios"
+      ],
+      "related": [
+        "looker-studio",
+        "google-marketing-platform"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-ar-vr",
+      "name": "Google AR & VR",
+      "tagline": "Google's augmented and virtual reality products and platforms.",
+      "description": "Augmented reality (AR) and Virtual Reality (VR) bridge the digital and physical worlds. They allow you to take in information and content visually, in the same way you take in the world.",
+      "image": "img/Google-AR-VR.webp",
+      "url": "https://arvr.google.com/",
+      "category": "creative",
+      "type": "resource",
+      "tags": [
+        "ar",
+        "vr",
+        "xr"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "waze",
+      "name": "Waze",
+      "tagline": "Community-powered navigation with live traffic and hazard reports.",
+      "description": "Waze is a GPS navigation software app owned by Google. It works on smartphones and tablet computers that have GPS support.",
+      "image": "img/Gooogle-Waze.webp",
+      "url": "https://www.waze.com/",
+      "category": "maps-travel",
+      "type": "app",
+      "tags": [
+        "navigation",
+        "traffic",
+        "driving"
+      ],
+      "platforms": [
+        "android",
+        "ios"
+      ],
+      "resources": [
+        {
+          "label": "Waze for developers",
+          "url": "https://developers.google.com/waze/"
+        }
+      ],
+      "pricing": "free",
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-stadia",
+      "name": "Google Stadia",
+      "tagline": "Cloud gaming platform.",
+      "description": "Google Stadia’s cloud-native platform gives developers a seamless path to players across connected devices, including TVs, phones, laptops, desktops and tablets.",
+      "image": "img/Google-Stadia.webp",
+      "url": "https://stadia.dev/",
+      "category": "culture",
+      "type": "platform",
+      "tags": [
+        "gaming",
+        "cloud"
+      ],
+      "status": "discontinued",
+      "statusNote": "Stadia shut down in January 2023.",
+      "pricing": "freemium",
+      "pricingNote": "Had a free tier plus the paid Stadia Pro subscription and game purchases.",
+      "platforms": [
+        "web"
+      ],
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "season-of-docs",
+      "name": "Season of Docs",
+      "tagline": "Connects technical writers with open source projects.",
+      "description": "Let's bring open source and technical writer communities together, to the benefit of both. Together we raise awareness of open source, of docs, and of technical writing.",
+      "image": "img/Season-of-Docs.webp",
+      "url": "https://developers.google.com/season-of-docs/",
+      "category": "programs",
+      "type": "program",
+      "tags": [
+        "open source",
+        "technical writing",
+        "docs"
+      ],
+      "related": [
+        "google-summer-of-code"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "build-your-future",
+      "name": "Build Your Future",
+      "tagline": "Programs and resources for students exploring careers at Google.",
+      "description": "We're here to help you get one step closer to your future whether it’s business or engineering & technology, we got you.",
+      "image": "img/Build-your-future.webp",
+      "url": "https://buildyourfuture.withgoogle.com/",
+      "category": "learning",
+      "type": "program",
+      "tags": [
+        "students",
+        "careers",
+        "internships"
+      ],
+      "related": [
+        "google-careers"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-coding-competitions",
+      "name": "Google's Coding Competitions",
+      "tagline": "Code Jam, Hash Code and Kick Start programming contests.",
+      "description": "Google's Coding Competitions are meant to enthrall, challenge, and test coders around the world.",
+      "image": "img/Google's-Coding-Competitions.webp",
+      "url": "https://codingcompetitions.withgoogle.com/",
+      "category": "programs",
+      "type": "program",
+      "tags": [
+        "competitive programming",
+        "contests"
+      ],
+      "status": "discontinued",
+      "statusNote": "Google ended Code Jam, Hash Code and Kick Start in 2023; the site now returns 404.",
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "added": "2019-09-22",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-for-nonprofits",
+      "name": "Google for Nonprofits",
+      "tagline": "Free and discounted Google products for eligible nonprofits.",
+      "description": "Spread the word about your nonprofit’s mission, engage new supporters, fundraise in more ways online.",
+      "image": "img/Google-for-Nonprofits.webp",
+      "url": "https://www.google.com/nonprofits/",
+      "category": "programs",
+      "type": "program",
+      "tags": [
+        "nonprofit",
+        "grants",
+        "ads"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-12-17",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-research",
+      "name": "Google Research",
+      "tagline": "Publications, tools and datasets from Google researchers.",
+      "description": "Researchers across Google are innovating across many domains. We challenge conventions and reimagine technology so that everyone can benefit.",
+      "image": "img/Google-Research.webp",
+      "url": "https://research.google/",
+      "category": "ai-research",
+      "type": "resource",
+      "tags": [
+        "research",
+        "papers",
+        "ai"
+      ],
+      "related": [
+        "google-deepmind",
+        "dataset-search"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-12-17",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-sustainability",
+      "name": "Google Sustainability",
+      "tagline": "Google's climate commitments, reports and sustainability tools.",
+      "description": "Google committed to renewable energy, efficient operations, and using data and information to help with issues like deforestation, overfishing, and air pollution.",
+      "image": "img/Google-Sustainability.webp",
+      "url": "https://sustainability.google/",
+      "category": "learning",
+      "type": "resource",
+      "tags": [
+        "climate",
+        "environment",
+        "energy"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2019-12-17",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "amp",
+      "name": "AMP",
+      "tagline": "Web component framework for fast, user-first pages.",
+      "description": "AMP - a web component framework to easily create user-first web experiences.",
+      "image": "img/Accelerated-Mobile-Pages.webp",
+      "url": "https://amp.dev/",
+      "category": "developer",
+      "type": "platform",
+      "formerly": "Accelerated Mobile Pages",
+      "tags": [
+        "web",
+        "performance",
+        "framework"
+      ],
+      "openSource": true,
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2020-10-15",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "firebase",
+      "name": "Firebase",
+      "tagline": "Backend services for apps: auth, database, hosting, analytics and more.",
+      "description": "Firebase is Google's mobile platform that helps you quickly develop high-quality apps and grow your business.",
+      "image": "img/Firebase.webp",
+      "url": "https://firebase.google.com/",
+      "category": "developer",
+      "type": "platform",
+      "tags": [
+        "backend",
+        "mobile",
+        "database",
+        "hosting"
+      ],
+      "pricing": "freemium",
+      "pricingNote": "No-cost Spark plan; pay-as-you-go Blaze plan.",
+      "platforms": [
+        "web",
+        "android",
+        "ios"
+      ],
+      "featured": true,
+      "related": [
+        "flutter",
+        "google-cloud",
+        "firebase-studio"
+      ],
+      "status": "active",
+      "added": "2020-10-15",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "flutter",
+      "name": "Flutter",
+      "tagline": "UI toolkit for building mobile, web and desktop apps from one codebase.",
+      "description": "Flutter SDK is Google's UI toolkit for crafting beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.",
+      "image": "img/Flutter.webp",
+      "url": "https://flutter.dev/",
+      "category": "developer",
+      "type": "platform",
+      "tags": [
+        "ui",
+        "dart",
+        "cross-platform",
+        "mobile"
+      ],
+      "platforms": [
+        "web",
+        "android",
+        "ios",
+        "desktop"
+      ],
+      "openSource": true,
+      "resources": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/flutter/flutter"
+        }
+      ],
+      "related": [
+        "firebase"
+      ],
+      "pricing": "free",
+      "status": "active",
+      "added": "2020-10-15",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-doodles",
+      "name": "Google Doodles",
+      "tagline": "Archive of every Google Doodle, including playable games.",
+      "description": "Google Doodle is a special, temporary alteration of the logo on Google's homepages intended to commemorate holidays, events, achievements, and notable historical figures.",
+      "image": "img/Google-Doodles.webp",
+      "url": "https://doodles.google/",
+      "category": "culture",
+      "type": "resource",
+      "tags": [
+        "art",
+        "games",
+        "history"
+      ],
+      "collections": [
+        "hidden-gems"
+      ],
+      "related": [
+        "google-arts-and-culture"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2020-10-16",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-translate",
+      "name": "Google Translate",
+      "tagline": "Translate text, speech, images and web pages across 100+ languages.",
+      "description": "Google's free service instantly translates words, phrases, and web pages between English and over 100 other languages.",
+      "image": "img/Google-Translate.webp",
+      "url": "https://translate.google.com/",
+      "category": "productivity",
+      "type": "app",
+      "tags": [
+        "translation",
+        "languages"
+      ],
+      "collections": [
+        "ai-powered"
+      ],
+      "platforms": [
+        "web",
+        "android",
+        "ios"
+      ],
+      "related": [
+        "google-lens"
+      ],
+      "pricing": "free",
+      "status": "active",
+      "added": "2020-10-16",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-travel",
+      "name": "Google Travel",
+      "tagline": "Plan trips: flights, hotels, things to do and your reservations.",
+      "description": "Looking for your trips and travel research? Sign in to the Google Account where you receive confirmation emails to see your booked reservations and travel.",
+      "image": "img/Google-Trips.webp",
+      "url": "https://www.google.com/travel/",
+      "category": "maps-travel",
+      "type": "app",
+      "formerly": "Google Trips",
+      "tags": [
+        "travel",
+        "trips",
+        "hotels"
+      ],
+      "statusNote": "The standalone Google Trips app was discontinued in 2019; its features live on in Google Travel.",
+      "related": [
+        "google-flights",
+        "google-earth"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2020-10-16",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-news",
+      "name": "Google News",
+      "tagline": "Personalized news aggregated from thousands of publishers.",
+      "description": "Google News is a news aggregator service that presents a continuous flow of articles organized from thousands of publishers and magazines.",
+      "image": "img/Google-News.webp",
+      "url": "https://news.google.com/",
+      "category": "data-search",
+      "type": "app",
+      "tags": [
+        "news",
+        "headlines"
+      ],
+      "platforms": [
+        "web",
+        "android",
+        "ios"
+      ],
+      "related": [
+        "google-alerts"
+      ],
+      "pricing": "free",
+      "status": "active",
+      "added": "2020-10-20",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-calendar",
+      "name": "Google Calendar",
+      "tagline": "Schedule events, share calendars and book time with others.",
+      "description": "Google Calendar is a time-management and scheduling calendar service developed by Google.",
+      "image": "img/Google-Calendar.webp",
+      "url": "https://calendar.google.com/",
+      "category": "productivity",
+      "type": "app",
+      "tags": [
+        "calendar",
+        "scheduling",
+        "workspace"
+      ],
+      "platforms": [
+        "web",
+        "android",
+        "ios"
+      ],
+      "pricing": "freemium",
+      "pricingNote": "Free with a Google account; Google Workspace plans add business features.",
+      "status": "active",
+      "added": "2020-10-20",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-chat",
+      "name": "Google Chat",
+      "tagline": "Team messaging with spaces, threads and integrations.",
+      "url": "https://workspace.google.com/products/chat/",
+      "category": "productivity",
+      "type": "app",
+      "tags": [
+        "messaging",
+        "workspace"
+      ],
+      "platforms": [
+        "web",
+        "android",
+        "ios"
+      ],
+      "pricing": "freemium",
+      "pricingNote": "Free with a Google account; Google Workspace plans add business features.",
+      "status": "active",
+      "added": "2021-10-03",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-meet",
+      "name": "Google Meet",
+      "tagline": "Video meetings in the browser or on mobile.",
+      "url": "https://meet.google.com/",
+      "category": "productivity",
+      "type": "app",
+      "tags": [
+        "video",
+        "meetings",
+        "workspace"
+      ],
+      "platforms": [
+        "web",
+        "android",
+        "ios"
+      ],
+      "pricing": "freemium",
+      "pricingNote": "Free with a Google account; Google Workspace plans add business features.",
+      "status": "active",
+      "added": "2021-10-03",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-docs-editors",
+      "name": "Google Docs Editors",
+      "tagline": "Docs, Sheets, Slides and Forms with real-time collaboration.",
+      "url": "https://workspace.google.com/products/docs/",
+      "category": "productivity",
+      "type": "app",
+      "tags": [
+        "documents",
+        "spreadsheets",
+        "workspace"
+      ],
+      "platforms": [
+        "web",
+        "android",
+        "ios"
+      ],
+      "pricing": "freemium",
+      "pricingNote": "Free with a Google account; Google Workspace plans add business features.",
+      "status": "active",
+      "added": "2021-10-03",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-drive",
+      "name": "Google Drive",
+      "tagline": "Cloud storage for files, with sharing and search.",
+      "url": "https://drive.google.com/",
+      "category": "productivity",
+      "type": "app",
+      "tags": [
+        "storage",
+        "files",
+        "workspace"
+      ],
+      "platforms": [
+        "web",
+        "android",
+        "ios"
+      ],
+      "pricing": "freemium",
+      "pricingNote": "Free with a Google account; Google Workspace plans add business features.",
+      "status": "active",
+      "added": "2021-10-03",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-keep",
+      "name": "Google Keep",
+      "tagline": "Quick notes, lists and reminders synced across devices.",
+      "url": "https://keep.google.com/",
+      "category": "productivity",
+      "type": "app",
+      "tags": [
+        "notes",
+        "lists",
+        "workspace"
+      ],
+      "platforms": [
+        "web",
+        "android",
+        "ios"
+      ],
+      "pricing": "freemium",
+      "pricingNote": "Free with a Google account; Google Workspace plans add business features.",
+      "status": "active",
+      "added": "2021-10-03",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "teachable-machine",
+      "name": "Teachable Machine",
+      "tagline": "Train image, sound or pose models in your browser — no code.",
+      "url": "https://teachablemachine.withgoogle.com/",
+      "category": "ai-research",
+      "type": "experiment",
+      "tags": [
+        "machine learning",
+        "no-code",
+        "education",
+        "tensorflow"
+      ],
+      "collections": [
+        "hidden-gems",
+        "ai-powered",
+        "experiments"
+      ],
+      "featured": true,
+      "useCases": [
+        "Teach ML concepts in a classroom",
+        "Prototype a gesture or sound trigger",
+        "Export a model for a web project"
+      ],
+      "related": [
+        "quick-draw",
+        "experiments-with-google"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2026-11-14",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "quick-draw",
+      "name": "Quick, Draw!",
+      "tagline": "A drawing game where a neural network guesses your doodles.",
+      "url": "https://quickdraw.withgoogle.com/",
+      "category": "culture",
+      "type": "experiment",
+      "tags": [
+        "game",
+        "drawing",
+        "neural network"
+      ],
+      "collections": [
+        "hidden-gems",
+        "ai-powered",
+        "experiments"
+      ],
+      "resources": [
+        {
+          "label": "Quick, Draw! dataset",
+          "url": "https://github.com/googlecreativelab/quickdraw-dataset"
+        }
+      ],
+      "related": [
+        "autodraw",
+        "teachable-machine"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2026-11-14",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "autodraw",
+      "name": "AutoDraw",
+      "tagline": "Turns rough sketches into clean drawings using machine learning.",
+      "url": "https://www.autodraw.com/",
+      "category": "creative",
+      "type": "experiment",
+      "tags": [
+        "drawing",
+        "illustration",
+        "ai"
+      ],
+      "collections": [
+        "hidden-gems",
+        "ai-powered",
+        "experiments"
+      ],
+      "related": [
+        "quick-draw"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2026-11-14",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "chrome-music-lab",
+      "name": "Chrome Music Lab",
+      "tagline": "Hands-on browser experiments for exploring how music works.",
+      "url": "https://musiclab.chromeexperiments.com/",
+      "category": "learning",
+      "type": "experiment",
+      "tags": [
+        "music",
+        "education",
+        "kids"
+      ],
+      "collections": [
+        "hidden-gems",
+        "experiments"
+      ],
+      "featured": true,
+      "useCases": [
+        "Teach rhythm and melody to kids",
+        "Make quick loops in the Song Maker"
+      ],
+      "related": [
+        "experiments-with-google"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2026-11-14",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-labs",
+      "name": "Google Labs",
+      "tagline": "Try Google's newest AI experiments before they ship.",
+      "url": "https://labs.google/",
+      "category": "ai-research",
+      "type": "resource",
+      "tags": [
+        "ai",
+        "experiments",
+        "early access"
+      ],
+      "collections": [
+        "ai-powered",
+        "experiments"
+      ],
+      "status": "beta",
+      "related": [
+        "notebooklm",
+        "gemini"
+      ],
+      "pricing": "freemium",
+      "pricingNote": "Many experiments are free to try; some require a paid Google AI plan.",
+      "platforms": [
+        "web"
+      ],
+      "added": "2026-11-14",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "notebooklm",
+      "name": "NotebookLM",
+      "tagline": "AI research assistant grounded in the sources you upload.",
+      "url": "https://notebooklm.google/",
+      "category": "ai-research",
+      "type": "app",
+      "tags": [
+        "ai",
+        "research",
+        "notes",
+        "summaries",
+        "podcast"
+      ],
+      "collections": [
+        "ai-powered"
+      ],
+      "featured": true,
+      "pricing": "freemium",
+      "pricingNote": "Free tier; higher limits with paid Google AI plans.",
+      "platforms": [
+        "web",
+        "android",
+        "ios"
+      ],
+      "useCases": [
+        "Summarise long PDFs and docs",
+        "Generate study guides",
+        "Create audio overviews of your sources"
+      ],
+      "related": [
+        "gemini",
+        "google-labs"
+      ],
+      "status": "active",
+      "added": "2026-11-14",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "tagline": "Google's AI assistant for writing, planning, coding and research.",
+      "url": "https://gemini.google.com/",
+      "category": "ai-research",
+      "type": "app",
+      "tags": [
+        "ai",
+        "chatbot",
+        "assistant",
+        "llm"
+      ],
+      "collections": [
+        "ai-powered"
+      ],
+      "pricing": "freemium",
+      "pricingNote": "Free tier; Google AI paid plans unlock more capable models and limits.",
+      "platforms": [
+        "web",
+        "android",
+        "ios"
+      ],
+      "related": [
+        "google-ai-studio",
+        "notebooklm"
+      ],
+      "status": "active",
+      "added": "2026-11-14",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-ai-studio",
+      "name": "Google AI Studio",
+      "tagline": "Prototype with Gemini models and get an API key in minutes.",
+      "url": "https://aistudio.google.com/",
+      "category": "developer",
+      "type": "app",
+      "tags": [
+        "ai",
+        "llm",
+        "api",
+        "prompting"
+      ],
+      "collections": [
+        "ai-powered"
+      ],
+      "pricing": "freemium",
+      "pricingNote": "Free to use in the browser; Gemini API usage beyond free limits is paid.",
+      "resources": [
+        {
+          "label": "Gemini API docs",
+          "url": "https://ai.google.dev/"
+        }
+      ],
+      "related": [
+        "gemini",
+        "google-colab"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2026-11-14",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "firebase-studio",
+      "name": "Firebase Studio",
+      "tagline": "Cloud-based, AI-assisted workspace for building full-stack apps.",
+      "url": "https://firebase.studio/",
+      "category": "developer",
+      "type": "app",
+      "formerly": "Project IDX",
+      "tags": [
+        "ide",
+        "ai",
+        "cloud development"
+      ],
+      "collections": [
+        "ai-powered"
+      ],
+      "pricing": "unknown",
+      "status": "beta",
+      "related": [
+        "firebase"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "added": "2026-11-14",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "jules",
+      "name": "Jules",
+      "tagline": "Asynchronous AI coding agent that works on your GitHub repositories.",
+      "url": "https://jules.google/",
+      "category": "developer",
+      "type": "app",
+      "tags": [
+        "ai",
+        "coding agent",
+        "github"
+      ],
+      "collections": [
+        "ai-powered"
+      ],
+      "pricing": "unknown",
+      "related": [
+        "google-ai-studio"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2026-11-14",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-fonts",
+      "name": "Google Fonts",
+      "tagline": "A library of free, open-licensed fonts and icons for any project.",
+      "url": "https://fonts.google.com/",
+      "category": "creative",
+      "type": "resource",
+      "tags": [
+        "typography",
+        "fonts",
+        "icons",
+        "design"
+      ],
+      "openSource": true,
+      "featured": true,
+      "related": [
+        "material-design",
+        "google-design"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2026-11-14",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "material-design",
+      "name": "Material Design",
+      "tagline": "Google's open-source design system with guidelines, components and tools.",
+      "url": "https://m3.material.io/",
+      "category": "creative",
+      "type": "resource",
+      "tags": [
+        "design system",
+        "ui",
+        "components"
+      ],
+      "openSource": true,
+      "related": [
+        "google-fonts",
+        "flutter"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2026-11-14",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "squoosh",
+      "name": "Squoosh",
+      "tagline": "Compress and compare image formats right in your browser.",
+      "url": "https://squoosh.app/",
+      "category": "developer",
+      "type": "app",
+      "tags": [
+        "images",
+        "compression",
+        "webp",
+        "avif",
+        "pwa"
+      ],
+      "collections": [
+        "hidden-gems"
+      ],
+      "openSource": true,
+      "useCases": [
+        "Shrink images before uploading to a site",
+        "Compare WebP vs AVIF quality"
+      ],
+      "resources": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/GoogleChromeLabs/squoosh"
+        }
+      ],
+      "related": [
+        "pagespeed-insights",
+        "web-dev"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2026-11-14",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "pagespeed-insights",
+      "name": "PageSpeed Insights",
+      "tagline": "Lab and real-user performance report for any URL.",
+      "url": "https://pagespeed.web.dev/",
+      "category": "developer",
+      "type": "app",
+      "tags": [
+        "performance",
+        "core web vitals",
+        "seo"
+      ],
+      "related": [
+        "lighthouse",
+        "web-dev"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2026-11-14",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "lighthouse",
+      "name": "Lighthouse",
+      "tagline": "Audit pages for performance, accessibility, SEO and best practices.",
+      "url": "https://developer.chrome.com/docs/lighthouse/",
+      "category": "developer",
+      "type": "app",
+      "tags": [
+        "performance",
+        "accessibility",
+        "audit",
+        "chrome devtools"
+      ],
+      "platforms": [
+        "web",
+        "desktop"
+      ],
+      "openSource": true,
+      "resources": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/GoogleChrome/lighthouse"
+        }
+      ],
+      "related": [
+        "pagespeed-insights"
+      ],
+      "pricing": "free",
+      "status": "active",
+      "added": "2026-11-14",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "dataset-search",
+      "name": "Dataset Search",
+      "tagline": "A search engine for datasets published across the web.",
+      "url": "https://datasetsearch.research.google.com/",
+      "category": "data-search",
+      "type": "app",
+      "tags": [
+        "data",
+        "research",
+        "open data"
+      ],
+      "collections": [
+        "hidden-gems"
+      ],
+      "featured": true,
+      "related": [
+        "google-scholar",
+        "kaggle"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2026-11-14",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "ngram-viewer",
+      "name": "Google Books Ngram Viewer",
+      "tagline": "Chart how often words and phrases appear in books over centuries.",
+      "url": "https://books.google.com/ngrams/",
+      "category": "data-search",
+      "type": "app",
+      "tags": [
+        "language",
+        "books",
+        "history",
+        "data"
+      ],
+      "collections": [
+        "hidden-gems"
+      ],
+      "related": [
+        "google-books",
+        "google-trends"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2026-11-14",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-books",
+      "name": "Google Books",
+      "tagline": "Search the full text of millions of books and preview pages.",
+      "url": "https://books.google.com/",
+      "category": "data-search",
+      "type": "app",
+      "tags": [
+        "books",
+        "reading",
+        "library"
+      ],
+      "platforms": [
+        "web",
+        "android",
+        "ios"
+      ],
+      "related": [
+        "ngram-viewer",
+        "google-scholar"
+      ],
+      "pricing": "free",
+      "status": "active",
+      "added": "2026-11-14",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "earth-engine",
+      "name": "Google Earth Engine",
+      "tagline": "Planetary-scale geospatial analysis on decades of satellite imagery.",
+      "url": "https://earthengine.google.com/",
+      "category": "ai-research",
+      "type": "platform",
+      "tags": [
+        "geospatial",
+        "satellite",
+        "climate",
+        "data"
+      ],
+      "collections": [
+        "hidden-gems"
+      ],
+      "pricing": "freemium",
+      "pricingNote": "No-cost for eligible noncommercial and research use; commercial use is paid.",
+      "related": [
+        "google-earth"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2026-11-14",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-colab",
+      "name": "Google Colab",
+      "tagline": "Hosted Jupyter notebooks with free access to GPUs.",
+      "url": "https://colab.research.google.com/",
+      "category": "developer",
+      "type": "app",
+      "tags": [
+        "python",
+        "notebooks",
+        "machine learning",
+        "jupyter"
+      ],
+      "collections": [
+        "ai-powered"
+      ],
+      "pricing": "freemium",
+      "pricingNote": "Free tier; Colab Pro plans add compute.",
+      "related": [
+        "kaggle",
+        "google-ai-studio"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2026-11-14",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "kaggle",
+      "name": "Kaggle",
+      "tagline": "Data science community with datasets, notebooks and competitions.",
+      "url": "https://www.kaggle.com/",
+      "category": "ai-research",
+      "type": "platform",
+      "tags": [
+        "data science",
+        "datasets",
+        "competitions",
+        "machine learning"
+      ],
+      "related": [
+        "google-colab",
+        "dataset-search"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2026-11-14",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-lens",
+      "name": "Google Lens",
+      "tagline": "Search what you see: identify objects, translate text, solve homework.",
+      "url": "https://lens.google/",
+      "category": "productivity",
+      "type": "app",
+      "tags": [
+        "visual search",
+        "camera",
+        "ocr"
+      ],
+      "collections": [
+        "ai-powered"
+      ],
+      "platforms": [
+        "web",
+        "android",
+        "ios"
+      ],
+      "related": [
+        "google-translate"
+      ],
+      "pricing": "free",
+      "status": "active",
+      "added": "2026-11-14",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-flights",
+      "name": "Google Flights",
+      "tagline": "Compare flights, track prices and find the cheapest dates.",
+      "url": "https://www.google.com/travel/flights",
+      "category": "maps-travel",
+      "type": "app",
+      "tags": [
+        "flights",
+        "travel",
+        "price tracking"
+      ],
+      "related": [
+        "google-travel"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2026-11-14",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "my-maps",
+      "name": "Google My Maps",
+      "tagline": "Create and share custom maps with your own pins, lines and layers.",
+      "url": "https://www.google.com/maps/about/mymaps/",
+      "category": "maps-travel",
+      "type": "app",
+      "tags": [
+        "maps",
+        "custom maps",
+        "planning"
+      ],
+      "collections": [
+        "hidden-gems"
+      ],
+      "platforms": [
+        "web",
+        "android"
+      ],
+      "related": [
+        "google-earth",
+        "street-view"
+      ],
+      "pricing": "free",
+      "status": "active",
+      "added": "2026-11-14",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "street-view",
+      "name": "Street View",
+      "tagline": "Explore 360° imagery of streets, landmarks and wonders.",
+      "url": "https://www.google.com/streetview/",
+      "category": "maps-travel",
+      "type": "app",
+      "tags": [
+        "maps",
+        "360",
+        "exploration"
+      ],
+      "platforms": [
+        "web",
+        "android",
+        "ios"
+      ],
+      "related": [
+        "google-earth",
+        "google-arts-and-culture"
+      ],
+      "pricing": "free",
+      "status": "active",
+      "added": "2026-11-14",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "pair",
+      "name": "People + AI Research (PAIR)",
+      "tagline": "Guidebooks and interactive explainers on human-centered AI.",
+      "url": "https://pair.withgoogle.com/",
+      "category": "ai-research",
+      "type": "resource",
+      "tags": [
+        "ai",
+        "ux",
+        "explainers",
+        "responsible ai"
+      ],
+      "collections": [
+        "hidden-gems",
+        "ai-powered"
+      ],
+      "related": [
+        "google-ai"
+      ],
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2026-11-14",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "google-style-guides",
+      "name": "Google Style Guides",
+      "tagline": "Google's public coding style guides for C++, Python, Java and more.",
+      "url": "https://google.github.io/styleguide/",
+      "category": "developer",
+      "type": "resource",
+      "tags": [
+        "code style",
+        "best practices"
+      ],
+      "collections": [
+        "hidden-gems"
+      ],
+      "openSource": true,
+      "pricing": "free",
+      "platforms": [
+        "web"
+      ],
+      "status": "active",
+      "added": "2026-11-14",
+      "verified": "2026-11-14"
+    }
+  ]
+}
